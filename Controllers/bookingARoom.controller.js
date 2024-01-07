@@ -7,7 +7,7 @@ const room = [{
 
 const data = [
     {
-        Room_Name : "vs Room",
+        Room_Name : "VIP Room",
         roomId : 1,
         Booked_Status : "booked",
         customerName : "sowmiya.v",
@@ -16,7 +16,7 @@ const data = [
         endTime : "11am"
     },
     {
-        Room_Name : "vs Room",
+        Room_Name : "VIP Room",
         roomId : 2,
         Booked_Status : "booked",
         customerName : "venkat.c",
@@ -44,7 +44,7 @@ const data = [
     },
     
     {
-        Room_Name : "vs Room",
+        Room_Name : "VIP Room",
         roomId : 5,
         Booked_Status : "booked",
         customerName : "venkat.c",
@@ -60,7 +60,7 @@ const data = [
 
 //getting room details
 export const getroomDetails = (req,res)=>{
-    res.status(200).json({message:"Welcome to Hall Booking App 🎉",data:room})
+    res.status(200).json({message:"Get Room Details",data:room})
 }
 //create a room
 export const createRoomDetails = (req,res)=>{
